@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* img {
+    display: block;
+} */
+
 :root {
     --body-color: #ffffff;
     --header-link:#212121;
@@ -33,9 +43,19 @@
 }
 
 /* header section */
+
+
 body {
 font-family: Roboto, sans-serif;
 color:var(--body-color);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
 }
 
 .logo {
@@ -66,7 +86,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
-color:var(--contacts-color)
 }
 
 .header_link_studio {
@@ -75,8 +94,12 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: var(--contacts-color);
 }
+
+.current {
+    color:var(--second-link-color)
+}
+
 
 .header_link:hover, 
 .header_link:focus {
