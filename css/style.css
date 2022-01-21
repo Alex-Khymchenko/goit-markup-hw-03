@@ -58,6 +58,11 @@ color:var(--body-color);
     outline: 2px solid red;
 }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .logo {
 font-family: Raleway;
 font-weight: 700;
@@ -140,7 +145,8 @@ color:var(--tel-color);
 .header_link_tel, 
 .footer_address, 
 .footer_mail, 
-.footer_tel {
+.footer_tel,
+.footer_logo {
     text-decoration: none;
 }
 
@@ -167,6 +173,13 @@ color:var(--main-color);
 
 .main_section {
     background-color:var(--main-section);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main_list {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .btn {
@@ -209,6 +222,11 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--about-color);
+margin-bottom: 50px;
+}
+
+.about_list {
+    margin-bottom: 94px;
 }
 
 .team {
@@ -217,6 +235,7 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--team-color);
+padding-top: 94px;
 }
 
 .team_name {
@@ -237,13 +256,38 @@ letter-spacing: 0.03em;
 color:var(--team-post);
 }
 
+.team_list {
+    padding-bottom: 94px;
+}
+
+.team_name_item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .footer_logo_color {
     color:var(--second-logo-color);
 }
 
 .footer {
     background-color:var(--footer-back);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
+.footer_logo {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--logo-color);
+}
+
+.bottom_logo {
+    margin-bottom: 20px;
+}
+
 
 .footer_address {
 font-weight: 400;
@@ -251,6 +295,10 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--footer-add);
+}
+
+.address_item {
+    margin-bottom: 9px;
 }
 
 .footer_mail {
@@ -282,6 +330,10 @@ color:var(--contacts-color);
 .footer_address:hover,
 .footer_address:focus {
     color: var(--contacts-color);
+}
+
+.footer_address {
+    margin-bottom: 9px;
 }
 
 /* portfolio */
@@ -323,3 +375,7 @@ cursor: pointer;
     color:var(--port-btn-hover);
     background-color:var(--port-btn-back);
 }
+
+
+
+
