@@ -48,6 +48,10 @@
     margin-left: 30px;
 }
 
+.main_item {
+    width: 270px;
+}
+
 .main_list {
     display: flex;
     align-items: center;
@@ -60,9 +64,6 @@
 .header_container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -72,6 +73,7 @@
 
 .header_list {
     display: flex;
+    margin-left: auto;
 }
 
 .header_connect {
@@ -94,6 +96,11 @@ font-family: Roboto, sans-serif;
 color:var(--body-color);
 }
 
+.vocation {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -105,6 +112,7 @@ color:var(--body-color);
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC
 }
 
 .logo {
@@ -223,7 +231,7 @@ margin-bottom: 30px;
     padding-bottom: 200px;
 }
 
-.main_list {
+.mini_articles {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -272,7 +280,6 @@ margin-bottom: 50px;
 }
 
 .about_list {
-    margin-bottom: 94px;
     display: flex;
 }
 
@@ -281,12 +288,17 @@ margin-left: 30px;
 }
 
 .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.team_title {
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--team-color);
-padding-top: 94px;
 }
 
 .team_name {
@@ -309,7 +321,6 @@ color:var(--team-post);
 }
 
 .team_list {
-    padding-bottom: 94px;
     display: flex;
 }
 
@@ -325,8 +336,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 }
 
-.team {
-    padding-bottom: 50px;
+.team_title {
+    margin-bottom: 50px;
 }
 
 .footer_logo_color {
@@ -348,15 +359,14 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--logo-color);
+display: block;
+margin-bottom: 20px;
 }
 
 .bottom_logo {
     margin-bottom: 20px;
 }
 
-.team_container {
-    background-color: #F5F4FA;
-}
 
 
 .footer_address {
@@ -367,8 +377,9 @@ letter-spacing: 0.03em;
 color:var(--footer-add);
 }
 
-.address_item {
+.address_item:nth-last-child(n + 2) {
     margin-bottom: 9px;
+    font-style: normal;
 }
 
 .footer_mail {
@@ -435,9 +446,11 @@ color:var(--contacts-color);
 padding-top: 20px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
+border-top: none;
 box-sizing: border-box;
 padding-left: 24px;
 padding-bottom: 20px;
+padding-right: 24px;
 }
 
 .wrap {
@@ -458,7 +471,7 @@ padding-bottom: 20px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-letter-spacing: 0.06em;
+letter-spacing: 0.03em;
 color:var(--services-color);
 }
 
