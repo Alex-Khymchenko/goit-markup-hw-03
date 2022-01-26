@@ -105,8 +105,9 @@ color:var(--body-color);
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    outlin: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid red; */
 }
 
 .header {
@@ -151,6 +152,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
+color: #212121;
 }
 
 .current {
@@ -233,7 +235,6 @@ margin-bottom: 30px;
 
 .mini_articles {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .btn {
@@ -382,6 +383,10 @@ color:var(--footer-add);
     font-style: normal;
 }
 
+.address {
+    font-style: normal;
+}
+
 .footer_mail {
 font-weight: 400;
 font-size: 14px;
@@ -437,6 +442,11 @@ color:var(--contacts-color);
     margin-left: 8px;
 }
 
+.main_section_portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 .grid {
     margin-bottom: 94px;
@@ -453,17 +463,13 @@ padding-bottom: 20px;
 padding-right: 24px;
 }
 
-.wrap {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .main_img {
-    width: 370px;
-    height: 404px;
-    margin-bottom: 30px;
+    /* width: 370px;
+    height: 404px; */
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 
@@ -505,6 +511,16 @@ height: 38px;
 .portfolio_btn:focus {
     color:var(--port-btn-hover);
     background-color:var(--port-btn-back);
+}
+
+.grid_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
 }
 
 
